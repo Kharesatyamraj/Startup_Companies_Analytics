@@ -1,11 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 17 16:34:14 2021
 
 @author: khare
 """
-
-## ASSIGNMENT-"Multiple linear Regression"
 ## Name- SATYAM RAJ KHARE
 
 
@@ -18,11 +13,7 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 from sklearn.preprocessing import LabelEncoder
 
-#1.)An analytics company has been tasked with the crucial job of finding out what 
-#factors affect a startup company and if it will be profitable or not. For this, 
-#they have collected some historical data and would like to apply multilinear 
-#regression to derive brief insights into their data. Predict profit, given different
-#attributes for various startup companies.
+
 # loading the data
 df= pd.read_csv(r"C:/Users/khare/Downloads/MLR/assign/Datasets_MLR\50_Startups.csv")
 
